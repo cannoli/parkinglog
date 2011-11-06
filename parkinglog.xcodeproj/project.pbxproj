@@ -23,6 +23,9 @@
 		C47E2CD114662DED00110A0A /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CCF14662DED00110A0A /* FirstViewController_iPad.xib */; };
 		C47E2CD414662DED00110A0A /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CD214662DED00110A0A /* SecondViewController_iPhone.xib */; };
 		C47E2CD714662DEE00110A0A /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CD514662DED00110A0A /* SecondViewController_iPad.xib */; };
+		C47E2CDF1466300600110A0A /* CarLocator.mm in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CDE1466300600110A0A /* CarLocator.mm */; };
+		C47E2CE11466305600110A0A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E2CE01466305600110A0A /* MapKit.framework */; };
+		C47E2CE3146631EF00110A0A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E2CE2146631EF00110A0A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,17 +33,17 @@
 		C47E2CAC14662DED00110A0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C47E2CAE14662DED00110A0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C47E2CB014662DED00110A0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C47E2CB414662DED00110A0A /* parkinglog-Info.plist */ = {isa = PBXFileReference; path = "parkinglog-Info.plist"; sourceTree = "<group>"; };
+		C47E2CB414662DED00110A0A /* parkinglog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parkinglog-Info.plist"; sourceTree = "<group>"; };
 		C47E2CB614662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C47E2CB814662DED00110A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C47E2CBA14662DED00110A0A /* parkinglog-Prefix.pch */ = {isa = PBXFileReference; path = "parkinglog-Prefix.pch"; sourceTree = "<group>"; };
-		C47E2CBB14662DED00110A0A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47E2CBA14662DED00110A0A /* parkinglog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "parkinglog-Prefix.pch"; sourceTree = "<group>"; };
+		C47E2CBB14662DED00110A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C47E2CBC14662DED00110A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C47E2CBE14662DED00110A0A /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		C47E2CBE14662DED00110A0A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		C47E2CBF14662DED00110A0A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		C47E2CC114662DED00110A0A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		C47E2CC314662DED00110A0A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		C47E2CC514662DED00110A0A /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		C47E2CC514662DED00110A0A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		C47E2CC614662DED00110A0A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		C47E2CC814662DED00110A0A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		C47E2CCA14662DED00110A0A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
@@ -48,6 +51,10 @@
 		C47E2CD014662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
 		C47E2CD314662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
 		C47E2CD614662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		C47E2CDD1466300600110A0A /* CarLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarLocator.h; sourceTree = "<group>"; };
+		C47E2CDE1466300600110A0A /* CarLocator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CarLocator.mm; sourceTree = "<group>"; };
+		C47E2CE01466305600110A0A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C47E2CE2146631EF00110A0A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47E2CE3146631EF00110A0A /* CoreLocation.framework in Frameworks */,
+				C47E2CE11466305600110A0A /* MapKit.framework in Frameworks */,
 				C47E2CAD14662DED00110A0A /* UIKit.framework in Frameworks */,
 				C47E2CAF14662DED00110A0A /* Foundation.framework in Frameworks */,
 				C47E2CB114662DED00110A0A /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +93,8 @@
 		C47E2CAB14662DED00110A0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C47E2CE2146631EF00110A0A /* CoreLocation.framework */,
+				C47E2CE01466305600110A0A /* MapKit.framework */,
 				C47E2CAC14662DED00110A0A /* UIKit.framework */,
 				C47E2CAE14662DED00110A0A /* Foundation.framework */,
 				C47E2CB014662DED00110A0A /* CoreGraphics.framework */,
@@ -94,6 +105,8 @@
 		C47E2CB214662DED00110A0A /* parkinglog */ = {
 			isa = PBXGroup;
 			children = (
+				C47E2CDD1466300600110A0A /* CarLocator.h */,
+				C47E2CDE1466300600110A0A /* CarLocator.mm */,
 				C47E2CBB14662DED00110A0A /* AppDelegate.h */,
 				C47E2CBC14662DED00110A0A /* AppDelegate.m */,
 				C47E2CBE14662DED00110A0A /* FirstViewController.h */,
@@ -197,6 +210,7 @@
 				C47E2CBD14662DED00110A0A /* AppDelegate.m in Sources */,
 				C47E2CC014662DED00110A0A /* FirstViewController.m in Sources */,
 				C47E2CC714662DED00110A0A /* SecondViewController.m in Sources */,
+				C47E2CDF1466300600110A0A /* CarLocator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
