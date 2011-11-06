@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47E2CAD14662DED00110A0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E2CAC14662DED00110A0A /* UIKit.framework */; };
+		C47E2CAF14662DED00110A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E2CAE14662DED00110A0A /* Foundation.framework */; };
+		C47E2CB114662DED00110A0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47E2CB014662DED00110A0A /* CoreGraphics.framework */; };
+		C47E2CB714662DED00110A0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CB514662DED00110A0A /* InfoPlist.strings */; };
+		C47E2CB914662DED00110A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CB814662DED00110A0A /* main.m */; };
+		C47E2CBD14662DED00110A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CBC14662DED00110A0A /* AppDelegate.m */; };
+		C47E2CC014662DED00110A0A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CBF14662DED00110A0A /* FirstViewController.m */; };
+		C47E2CC214662DED00110A0A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CC114662DED00110A0A /* first.png */; };
+		C47E2CC414662DED00110A0A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CC314662DED00110A0A /* first@2x.png */; };
+		C47E2CC714662DED00110A0A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47E2CC614662DED00110A0A /* SecondViewController.m */; };
+		C47E2CC914662DED00110A0A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CC814662DED00110A0A /* second.png */; };
+		C47E2CCB14662DED00110A0A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CCA14662DED00110A0A /* second@2x.png */; };
+		C47E2CCE14662DED00110A0A /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CCC14662DED00110A0A /* FirstViewController_iPhone.xib */; };
+		C47E2CD114662DED00110A0A /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CCF14662DED00110A0A /* FirstViewController_iPad.xib */; };
+		C47E2CD414662DED00110A0A /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CD214662DED00110A0A /* SecondViewController_iPhone.xib */; };
+		C47E2CD714662DEE00110A0A /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47E2CD514662DED00110A0A /* SecondViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C47E2CA814662DED00110A0A /* parkinglog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkinglog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E2CAC14662DED00110A0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C47E2CAE14662DED00110A0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C47E2CB014662DED00110A0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C47E2CB414662DED00110A0A /* parkinglog-Info.plist */ = {isa = PBXFileReference; path = "parkinglog-Info.plist"; sourceTree = "<group>"; };
+		C47E2CB614662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C47E2CB814662DED00110A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47E2CBA14662DED00110A0A /* parkinglog-Prefix.pch */ = {isa = PBXFileReference; path = "parkinglog-Prefix.pch"; sourceTree = "<group>"; };
+		C47E2CBB14662DED00110A0A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47E2CBC14662DED00110A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47E2CBE14662DED00110A0A /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		C47E2CBF14662DED00110A0A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C47E2CC114662DED00110A0A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C47E2CC314662DED00110A0A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C47E2CC514662DED00110A0A /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		C47E2CC614662DED00110A0A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C47E2CC814662DED00110A0A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C47E2CCA14662DED00110A0A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C47E2CCD14662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		C47E2CD014662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		C47E2CD314662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		C47E2CD614662DED00110A0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47E2CA514662DED00110A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E2CAD14662DED00110A0A /* UIKit.framework in Frameworks */,
+				C47E2CAF14662DED00110A0A /* Foundation.framework in Frameworks */,
+				C47E2CB114662DED00110A0A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47E2C9D14662DED00110A0A = {
+			isa = PBXGroup;
+			children = (
+				C47E2CB214662DED00110A0A /* parkinglog */,
+				C47E2CAB14662DED00110A0A /* Frameworks */,
+				C47E2CA914662DED00110A0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47E2CA914662DED00110A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47E2CA814662DED00110A0A /* parkinglog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47E2CAB14662DED00110A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C47E2CAC14662DED00110A0A /* UIKit.framework */,
+				C47E2CAE14662DED00110A0A /* Foundation.framework */,
+				C47E2CB014662DED00110A0A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47E2CB214662DED00110A0A /* parkinglog */ = {
+			isa = PBXGroup;
+			children = (
+				C47E2CBB14662DED00110A0A /* AppDelegate.h */,
+				C47E2CBC14662DED00110A0A /* AppDelegate.m */,
+				C47E2CBE14662DED00110A0A /* FirstViewController.h */,
+				C47E2CBF14662DED00110A0A /* FirstViewController.m */,
+				C47E2CC114662DED00110A0A /* first.png */,
+				C47E2CC314662DED00110A0A /* first@2x.png */,
+				C47E2CC514662DED00110A0A /* SecondViewController.h */,
+				C47E2CC614662DED00110A0A /* SecondViewController.m */,
+				C47E2CC814662DED00110A0A /* second.png */,
+				C47E2CCA14662DED00110A0A /* second@2x.png */,
+				C47E2CCC14662DED00110A0A /* FirstViewController_iPhone.xib */,
+				C47E2CCF14662DED00110A0A /* FirstViewController_iPad.xib */,
+				C47E2CD214662DED00110A0A /* SecondViewController_iPhone.xib */,
+				C47E2CD514662DED00110A0A /* SecondViewController_iPad.xib */,
+				C47E2CB314662DED00110A0A /* Supporting Files */,
+			);
+			path = parkinglog;
+			sourceTree = "<group>";
+		};
+		C47E2CB314662DED00110A0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47E2CB414662DED00110A0A /* parkinglog-Info.plist */,
+				C47E2CB514662DED00110A0A /* InfoPlist.strings */,
+				C47E2CB814662DED00110A0A /* main.m */,
+				C47E2CBA14662DED00110A0A /* parkinglog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47E2CA714662DED00110A0A /* parkinglog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E2CDA14662DEE00110A0A /* Build configuration list for PBXNativeTarget "parkinglog" */;
+			buildPhases = (
+				C47E2CA414662DED00110A0A /* Sources */,
+				C47E2CA514662DED00110A0A /* Frameworks */,
+				C47E2CA614662DED00110A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parkinglog;
+			productName = parkinglog;
+			productReference = C47E2CA814662DED00110A0A /* parkinglog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47E2C9F14662DED00110A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C47E2CA214662DED00110A0A /* Build configuration list for PBXProject "parkinglog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C47E2C9D14662DED00110A0A;
+			productRefGroup = C47E2CA914662DED00110A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47E2CA714662DED00110A0A /* parkinglog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47E2CA614662DED00110A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E2CB714662DED00110A0A /* InfoPlist.strings in Resources */,
+				C47E2CC214662DED00110A0A /* first.png in Resources */,
+				C47E2CC414662DED00110A0A /* first@2x.png in Resources */,
+				C47E2CC914662DED00110A0A /* second.png in Resources */,
+				C47E2CCB14662DED00110A0A /* second@2x.png in Resources */,
+				C47E2CCE14662DED00110A0A /* FirstViewController_iPhone.xib in Resources */,
+				C47E2CD114662DED00110A0A /* FirstViewController_iPad.xib in Resources */,
+				C47E2CD414662DED00110A0A /* SecondViewController_iPhone.xib in Resources */,
+				C47E2CD714662DEE00110A0A /* SecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47E2CA414662DED00110A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E2CB914662DED00110A0A /* main.m in Sources */,
+				C47E2CBD14662DED00110A0A /* AppDelegate.m in Sources */,
+				C47E2CC014662DED00110A0A /* FirstViewController.m in Sources */,
+				C47E2CC714662DED00110A0A /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C47E2CB514662DED00110A0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E2CB614662DED00110A0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C47E2CCC14662DED00110A0A /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E2CCD14662DED00110A0A /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C47E2CCF14662DED00110A0A /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E2CD014662DED00110A0A /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C47E2CD214662DED00110A0A /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E2CD314662DED00110A0A /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C47E2CD514662DED00110A0A /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47E2CD614662DED00110A0A /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C47E2CD814662DEE00110A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C47E2CD914662DEE00110A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C47E2CDB14662DEE00110A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "parkinglog/parkinglog-Prefix.pch";
+				INFOPLIST_FILE = "parkinglog/parkinglog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C47E2CDC14662DEE00110A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "parkinglog/parkinglog-Prefix.pch";
+				INFOPLIST_FILE = "parkinglog/parkinglog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47E2CA214662DED00110A0A /* Build configuration list for PBXProject "parkinglog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E2CD814662DEE00110A0A /* Debug */,
+				C47E2CD914662DEE00110A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E2CDA14662DEE00110A0A /* Build configuration list for PBXNativeTarget "parkinglog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E2CDB14662DEE00110A0A /* Debug */,
+				C47E2CDC14662DEE00110A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47E2C9F14662DED00110A0A /* Project object */;
+}
